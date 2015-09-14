@@ -176,3 +176,41 @@ footer {
         margin-left: 0;
     }
 }
+
+
+
+/* Mobile */
+@media (max-width: 767px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+        height: 350px;
+         width: 100%;
+    }
+}
+
+/* tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+        height: 400px;
+        width: 100%;
+    }
+}
+
+/* laptops */
+@media (max-width: 1023px) and (min-width: 992px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+        height: 500px;
+        width: 100%;
+    }
+}
+
+/* desktops */
+@media (min-width: 1024px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+        height: 600px;
+        width: 100%;
+    }
+}
