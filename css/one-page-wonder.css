@@ -186,6 +186,15 @@ footer {
         height: 50%;
         width: 800px;
     }
+    .navbar-brand >img {
+            visibility: hidden;
+            width:40px;
+            height:40px;
+            position: absolute;
+            right: 80px;
+            top:0px;
+            z-index:-1;
+    }
 }
 
 /* tablets */
@@ -194,6 +203,13 @@ footer {
   .carousel-inner > .item > a > img {
         height: 50%;
         width: 1000px;
+    }
+    .navbar-brand >img {
+            width:60px;
+            height:60px;
+            position: absolute;
+            right: 100px;
+            z-index:-1;
     }
 }
 
@@ -204,6 +220,13 @@ footer {
         height: 500px;
         width: 1024px;
     }
+    .navbar-brand >img {
+            width:80px;
+            height:80px;
+            position: absolute;
+            right: 120px;
+            z-index:-1;
+    }
 }
 
 /* desktops */
@@ -212,5 +235,12 @@ footer {
   .carousel-inner > .item > a > img {
         height: 600px;
         width: 1900px;
+    }
+    .navbar-brand >img {
+            width: 120px;
+            height:120px;
+            position: absolute;
+            right: 200px;
+            z-index:-1;
     }
 }
